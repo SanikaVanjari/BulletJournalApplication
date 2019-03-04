@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LogInActivity">
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        />
+    <EditText
+        android:id="@+id/LogInEmailET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_email"
+        android:inputType="textEmailAddress"
+        android:autofillHints="@string/error_email_autofill" />
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+    <EditText
+        android:id="@+id/LogInPasswordET"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_password"
+        android:importantForAutofill="no" />
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"/>
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <TextView
+        android:id="@+id/registerNewUserTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_new_user"
+        android:textAlignment="center"/>
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_password"
+        android:textAlignment="center"/>
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resend_verification_mail"
+        android:textAlignment="center"/>
+
+    <ProgressBar
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/progressBar"
+        android:visibility="invisible"/>
+
+</LinearLayout>
