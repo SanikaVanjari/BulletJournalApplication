@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.Toolbar>
+
+    <ImageButton
+        android:id="@+id/journal_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#141313"
+        app:srcCompat="@drawable/journal_icon"
+        android:contentDescription="TODO" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/journal"/>
+
+    <ImageButton
+        android:id="@+id/collection_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#141313"
+        app:srcCompat="@drawable/collection_icon" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Collection"/>
+    <ImageButton
+        android:id="@+id/goals_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#141313"
+        app:srcCompat="@drawable/goals_icon" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/goals"/>
+
+    <ImageButton
+        android:id="@+id/to_do_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#141313"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/to_do_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/to_do_list" />
+</LinearLayout>

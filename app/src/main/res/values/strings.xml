@@ -7,6 +7,17 @@
     <string name="forgot_password">Forgot Password?</string>
     <string name="resend_verification_mail">Resend Verification Mail</string>
     <string name="error_email_autofill">Enter the email used to create account</string>
+    <string name="home">Home</string>
+    <string name="to_do_list">To DO List</string>
+    <string name="Collection">Collection</string>
+    <string name="journal">Journal</string>
+    <string name="goals">Goals</string>
+    <string name="add_data">Add Data</string>
+    <string name="save">save</string>
+    <string name="journal_pages">Journal Pages</string>
+    <string name="add_title">add title</string>
+    <string name="add_content">add content</string>
+    <string name="add_collection">Add Collection</string>
 
 
 </resources>

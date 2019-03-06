@@ -9,7 +9,13 @@
         android:roundIcon="@drawable/icon_app"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LogInActivity"></activity>
+        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".JournalActivity" />
+        <activity android:name=".CollectionActivity" />
+        <activity android:name=".GoalsActivity" />
+        <activity android:name=".ToDoListAtivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".LogInActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
